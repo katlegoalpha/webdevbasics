@@ -1,0 +1,65 @@
+/*
+    parent element styles
+*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    background-color: rgba(83, 32, 2, 0.699);
+    height: 100%;
+}
+
+body {
+    background-image: url(src/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*
+    navigation style
+*/
+nav {
+    display: flex;
+    background-color: rgba(41, 3, 3, 0.897);
+    color: rgb(61, 60, 60);
+    margin: 190px;
+}
+#navlist1 {
+    list-style: none;
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+}
+
+#navlist1 > li {
+    padding: 20px;
+}
+
+#navlist1 > li:hover {
+    color: rgba(255, 0, 34, 0.822);
+    cursor: pointer;
+}
+
+#navlist2 {
+    list-style: none;
+    background-color: rgb(65, 36, 24);
+    margin: 20px;
+    padding: 1px;
+}
+
+.icon {
+    position: absolute;
+    right: 400px;
+    margin-top: 18px;
+}
+/*
+    main hero section content styles
+*/
+.hero {
+    margin: 165px;
+    color: white;
+    background-color: rgba(3, 82, 74, 0.822);
+    padding: 35px;
+}
